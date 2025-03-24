@@ -19,10 +19,10 @@ MONGO_DB_URI = "mongodb+srv://kc2155737:kc2155737@cluster0.xcnyq.mongodb.net/?re
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = -1002394086197
+LOG_GROUP_ID = -1002244304483
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = 7806797540
+OWNER_ID = 6496422499
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/back_benchers_0"
-SUPPORT_GROUP = "https://t.me/back_benchers_0"
+SUPPORT_CHANNEL = "https://t.me/i_am_piroo"
+SUPPORT_GROUP = "https://t.me/i_am_piroo"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
